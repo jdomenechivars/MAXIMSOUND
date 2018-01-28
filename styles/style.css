@@ -120,13 +120,30 @@ nav {
 
 /* line 73, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #wraper2 {
-  height: 100px;
-  background-color: white;
-  border: 5px solid red; }
+  height: 500px;
+  background-color: white; }
 
 /* line 79, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#wraper3 {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  text-align: center;
+  color: white;
+  height: 320px;
+  padding: 50px;
+  font-size: 50px;
+  font-family: 'Roboto',sans-serif;
+  background-image: url(images/GETINTOUCH.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; }
+
+/* line 97, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 footer {
-  height: 100px;
-  border: 5px solid blue; }
+  background-color: #272727;
+  color: white;
+  height: 87.5vh; }
 
 /*# sourceMappingURL=style.css.map */
