@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 6, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 6, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,36 +24,42 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
-/* line 27, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 27, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 31, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 31, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 body {
   line-height: 1; }
 
-/* line 34, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 34, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 ol, ul {
   list-style: none; }
 
-/* line 37, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 37, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 40, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 40, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 45, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
+/* line 45, Escritorio/PROJECTES/MAXIMSOUND/styles/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 7, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 8, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+body {
+  display: flex;
+  flex-flow: column nowrap; }
+
+/* line 12, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 header {
+  position: absolute;
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
@@ -61,28 +67,30 @@ header {
   display: flex;
   justify-content: center; }
 
-/* line 16, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 22, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 nav {
-  width: 900px;
+  width: 70%;
   height: 120px; }
 
-/* line 23, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 27, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #logo {
   height: auto;
   width: 200px; }
 
-/* line 30, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 32, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #wraper1 {
-  position: absolute;
-  top: 0;
   z-index: -10;
   width: 100%;
-  height: 110vh;
-  background-image: url(images/intro2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat; }
+  height: content;
+  padding: 0px; }
 
-/* line 42, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 39, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.carousel-control-prev-icon,
+.carousel-control-next-icon,
+.carousel-indicators {
+  cursor: pointer; }
+
+/* line 45, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #welcome {
   display: block;
   position: absolute;
@@ -97,17 +105,28 @@ nav {
   color: black;
   text-align: left; }
 
-/* line 57, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 60, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .item-title-div {
   margin-bottom: 10px;
   display: inline-block; }
 
-/* line 62, ../Users/Joan Domenech/Desktop/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 65, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .item-desc-div {
   font-size: 16px;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
   margin-bottom: 10px;
   display: block; }
+
+/* line 73, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#wraper2 {
+  height: 100px;
+  background-color: white;
+  border: 5px solid red; }
+
+/* line 79, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+footer {
+  height: 100px;
+  border: 5px solid blue; }
 
 /*# sourceMappingURL=style.css.map */
