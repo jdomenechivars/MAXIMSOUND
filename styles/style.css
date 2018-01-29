@@ -52,7 +52,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 8, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 7, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 body {
   display: flex;
   flex-flow: column nowrap; }
@@ -105,11 +105,16 @@ nav {
   text-align: left; }
 
 /* line 59, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#welcometitle {
+  font-size: 40px;
+  font-weight: 100; }
+
+/* line 64, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .item-title-div {
   margin-bottom: 10px;
   display: inline-block; }
 
-/* line 64, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 69, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .item-desc-div {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
@@ -117,32 +122,96 @@ nav {
   margin-bottom: 10px;
   display: block; }
 
-/* line 72, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 77, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #wraper2 {
   height: 500px;
   background-color: white; }
 
-/* line 78, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 82, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #wraper3 {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  text-align: center;
-  color: white;
-  height: 320px;
-  padding: 50px;
-  font-size: 50px;
-  font-family: 'Roboto',sans-serif;
+  height: auto;
+  padding: 100px 0;
+  overflow: hidden;
   background-image: url(images/GETINTOUCH.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover; }
 
-/* line 96, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 99, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.workquestion {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+  padding: 36px 0;
+  line-height: 1.1;
+  font-weight: 100;
+  font-style: thin;
+  font-family: 'Roboto', sans-serif; }
+
+/* line 111, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#getintouch {
+  width: 130px;
+  height: 50px;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 13px 12px;
+  vertical-align: middle;
+  letter-spacing: 0.1em; }
+
+/* line 129, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 footer {
   background-color: #272727;
   color: white;
   height: 87.5vh; }
+
+/* line 135, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#footermenu {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around; }
+
+/* line 144, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.footercolumn {
+  display: flex;
+  flex-flow: column nowrap; }
+
+/* line 149, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+h5 {
+  padding: 25px; }
+
+/* line 153, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.socialmedia {
+  padding: 25px;
+  text-decoration: none;
+  color: darkgrey; }
+
+/* line 159, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.socialmedia:hover {
+  text-decoration: none;
+  color: white; }
+
+/* line 164, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+hr {
+  border-color: dimgrey;
+  margin: 60px; }
+
+/* line 169, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#copyright {
+  margin: 60px;
+  color: dimgrey; }
 
 /*# sourceMappingURL=style.css.map */
