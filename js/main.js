@@ -6,7 +6,7 @@ console.log(location.pathname);
 
 $(document).ready(function () {
 
-  if (location.pathname == "/index.html") {
+  if (location.pathname == "/index.html" || location.pathname =="/MAXIMSOUND/") {
     window.onscroll = function () {
       scrollFunction()
     };
