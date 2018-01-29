@@ -2,6 +2,8 @@
 /*eslint "no-console": "off"*/
 /*global $ */
 
+console.log(location.pathname);
+
 $(document).ready(function () {
 
   if (location.pathname == "/index.html") {
