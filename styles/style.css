@@ -176,14 +176,14 @@ nav {
   vertical-align: middle;
   letter-spacing: 0.1em; }
 
-/* line 135, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 132, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 footer {
   background-color: #272727;
   color: white;
   padding: 0 350px;
   height: 87.5vh; }
 
-/* line 142, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 139, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #footermenu {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -191,16 +191,16 @@ footer {
   flex-flow: row wrap;
   justify-content: space-between; }
 
-/* line 151, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 148, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .footercolumn {
   display: flex;
   flex-flow: column nowrap; }
 
-/* line 156, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 153, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 h5 {
   padding: 25px; }
 
-/* line 160, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 157, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .socialmedia,
 .empresa,
 .legal {
@@ -209,18 +209,18 @@ h5 {
   text-decoration: none;
   color: darkgrey; }
 
-/* line 169, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 166, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .socialmedia:hover,
 empresa:hover,
 .legal:hover {
   text-decoration: none;
   color: white; }
 
-/* line 176, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 173, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 hr {
   border-color: #474747; }
 
-/* line 180, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 177, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .footerbottom {
   padding: 45px 0;
   display: flex;
@@ -228,30 +228,31 @@ hr {
   justify-content: space-between;
   align-items: center; }
 
-/* line 188, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 185, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #copyright {
   color: #474747; }
 
-/* line 192, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 189, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #ogrey {
   width: 75px;
   height: auto; }
 
-/* line 197, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 194, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #wraper4 {
   margin: 150px auto 0 auto;
-  padding: 50px 150px; }
+  padding: 50px 150px;
+  min-height: 87.5vh; }
 
-/* line 203, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 200, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 ol {
   list-style: decimal;
   margin: 40px; }
 
-/* line 208, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 205, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .legalList {
   padding: 15px 0; }
 
-/* line 212, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 209, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .legaltext {
   margin-top: 15px; }
 
