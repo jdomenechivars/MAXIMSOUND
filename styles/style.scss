@@ -24,6 +24,12 @@ nav {
   height: 120px;
 }
 
+#bar2{
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 #logo {
   height: auto;
   width: 200px;
@@ -190,10 +196,20 @@ hr {
 
 #wraper4 {
 
-  margin: 300px auto;
-  padding: 0 150px;
+  margin: 150px auto 0 auto;
+  padding: 50px 150px;
 }
 
 ol {
   list-style: decimal;
+  margin: 40px;
 }
+
+.legalList{
+  padding: 15px 0;
+}
+
+.legaltext{
+  margin-top: 15px;
+}
+

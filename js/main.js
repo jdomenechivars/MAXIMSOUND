@@ -4,10 +4,11 @@
 
 $(document).ready(function () {
 
-  window.onscroll = function () {
-    scrollFunction()
-  };
-
+  if (location.pathname == "/index.html") {
+    window.onscroll = function () {
+      scrollFunction()
+    };
+  }
   styleButtons();
 
 });
@@ -33,13 +34,19 @@ function styleButtons() {
 
   $("#getintouch").mouseenter(function () {
 
-    $("#getintouch").css({"background-color": "white","color": "black"})
+    $("#getintouch").css({
+      "background-color": "white",
+      "color": "black"
+    })
 
   });
 
-   $("#getintouch").mouseleave(function () {
+  $("#getintouch").mouseleave(function () {
 
-    $("#getintouch").css({"background-color": "transparent","color": "white"})
+    $("#getintouch").css({
+      "background-color": "transparent",
+      "color": "white"
+    })
 
   });
 
