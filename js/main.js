@@ -6,7 +6,7 @@ console.log(location.pathname);
 
 $(document).ready(function () {
 
-  if (location.pathname == "/index.html" || location.pathname =="/MAXIMSOUND/") {
+  if (location.pathname == "/index.html" || location.pathname == "/MAXIMSOUND/") {
     window.onscroll = function () {
       scrollFunction()
     };
@@ -19,7 +19,6 @@ $(document).ready(function () {
 function scrollFunction() {
 
   var bar = document.getElementById("bar");
-
 
   if (document.body.scrollTop > 55 || document.documentElement.scrollTop > 55) {
     bar.style.width = "100%";
