@@ -321,13 +321,19 @@ ol {
 
 /* line 278, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .box-contact {
+  width: 100%;
   margin: 50px; }
 
-/* line 282, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 283, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .box-bg {
   width: 100%;
   padding: 25px;
   background: #474747;
   color: white; }
+
+/* line 290, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.div-horizontal p {
+  font-size: 14px;
+  margin: 15px 0; }
 
 /*# sourceMappingURL=style.css.map */
