@@ -73,7 +73,7 @@ nav {
 }
 
 .item-desc-div {
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin-bottom: 10px;
@@ -164,7 +164,7 @@ h5 {
 }
 
 .socialmedia:hover,
-empresa:hover,
+.empresa:hover,
 .legal:hover {
   text-decoration: none;
   color: white;
@@ -210,3 +210,26 @@ ol {
   margin-top: 15px;
 }
 
+.contactIcons{
+  width: 25px;
+  height: auto;
+}
+
+.contactMedia{
+  text-transform: uppercase;
+  font-size: 12px;
+  max-width: 100px;
+  border: 1px solid yellow;
+  background-color: yellow;
+  margin: 5px;
+}
+
+.box-contact{
+  margin: 50px;
+}
+
+.box-bg{
+  padding: 25px;
+  background: #474747;
+  color: white;
+}

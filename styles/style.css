@@ -122,7 +122,7 @@ nav {
 
 /* line 75, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .item-desc-div {
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin-bottom: 10px;
@@ -211,7 +211,7 @@ h5 {
 
 /* line 166, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .socialmedia:hover,
-empresa:hover,
+.empresa:hover,
 .legal:hover {
   text-decoration: none;
   color: white; }
@@ -255,5 +255,29 @@ ol {
 /* line 209, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .legaltext {
   margin-top: 15px; }
+
+/* line 213, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.contactIcons {
+  width: 25px;
+  height: auto; }
+
+/* line 218, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.contactMedia {
+  text-transform: uppercase;
+  font-size: 12px;
+  max-width: 100px;
+  border: 1px solid yellow;
+  background-color: yellow;
+  margin: 5px; }
+
+/* line 227, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.box-contact {
+  margin: 50px; }
+
+/* line 231, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.box-bg {
+  padding: 25px;
+  background: #474747;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
