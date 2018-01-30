@@ -5,6 +5,7 @@
 //Mixins
 //Style
 body {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-flow: column nowrap;
 }
@@ -24,7 +25,11 @@ nav {
   height: 120px;
 }
 
-#bar2{
+.dropdown-toggle::after {
+  color: #ffcc00;
+}
+
+#bar2 {
   width: 100%;
   position: fixed;
   top: 0;
@@ -202,33 +207,80 @@ ol {
   margin: 40px;
 }
 
-.legalList{
+.legalList {
   padding: 15px 0;
 }
 
-.legaltext{
+.legaltext {
   margin-top: 15px;
 }
 
-.contactIcons{
-  width: 25px;
-  height: auto;
+.contact h3 {
+  position: relative;
+  margin: 20px 0;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 
-.contactMedia{
+.contact h3::after{
+//  margin: 15px 0;
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #ffcc00;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.contactInfo {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.eachContact{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.contactIcons {
+  width: 20px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.contactMedia {
   text-transform: uppercase;
   font-size: 12px;
-  max-width: 100px;
-  border: 1px solid yellow;
-  background-color: yellow;
+  background-color: #eeeeee;
   margin: 5px;
 }
 
-.box-contact{
+.contactMedia:hover {
+  background-color: #ffcc00;
+}
+
+.mediaLink {
+  font-family: 'Roboto', sans-serif;
+  color: grey;
+}
+
+.mediaLink:hover {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.box-contact {
   margin: 50px;
 }
 
-.box-bg{
+.box-bg {
+  width: 100%;
   padding: 25px;
   background: #474747;
   color: white;
