@@ -1,0 +1,3 @@
++ fix footer responsive
+- fix overflow home page
+
