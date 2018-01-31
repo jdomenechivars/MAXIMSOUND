@@ -53,6 +53,7 @@ nav {
 }
 
 #welcome {
+  overflow: hidden;
   display: block;
   position: absolute;
   left: 25%;
@@ -88,6 +89,7 @@ nav {
 #wraper2 {
   height: 500px;
   background-color: white; //	border: 5px solid red;
+  overflow: hidden;
 }
 
 #wraper3 {
@@ -134,25 +136,23 @@ nav {
   letter-spacing: 0.1em;
 }
 
+// FOOTER START //
 footer {
   background-color: #272727;
   color: white;
-  padding: 0 350px;
-  height: 87.5vh; //  border: 5px solid blue;
+  min-height: 87.5vh; //  border: 5px solid blue;
 }
 
 #footermenu {
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-
+  margin: 0 250px;
 }
 
 .footercolumn {
   display: flex;
   flex-flow: column nowrap;
+  margin: 35px;
 }
 
 h5 {
@@ -176,25 +176,33 @@ h5 {
 }
 
 hr {
+  margin: 0 250px;
   border-color: #474747;
 }
 
 .footerbottom {
+  margin: 0 250px;
   padding: 45px 0;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: center;
 }
 
 #copyright {
   color: #474747;
+  margin-right: 50px;
+}
+
+#ogreyContainer{
+  margin-left: 50px;
+  display: flex;
 }
 
 #ogrey {
   width: 75px;
   height: auto;
 }
+
+// FOOTER ENDING //
+
 
 #wraper4 {
   margin: 150px auto 0 auto;
@@ -222,8 +230,8 @@ ol {
   font-weight: bold;
 }
 
-.contact h3::after{
-//  margin: 15px 0;
+.contact h3::after {
+  //  margin: 15px 0;
   content: "";
   display: block;
   width: 40px;
@@ -239,12 +247,14 @@ ol {
   flex-flow: column nowrap;
 }
 
-.eachContact{
+.eachContact {
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
+  align-content: center;
   margin: 5px 0;
+  //  font-weight: 100;
 }
 
 .contactIcons {
@@ -262,6 +272,29 @@ ol {
 
 .contactMedia:hover {
   background-color: #ffcc00;
+}
+
+.contactdirect {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+
+}
+
+.contactdirect,
+.contactdirect:hover {
+  vertical-align: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contactdirect:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: #ffcc00;
+
 }
 
 .mediaLink {
@@ -287,7 +320,7 @@ ol {
   color: white;
 }
 
-.div-horizontal p{
+.div-horizontal p {
   font-size: 14px;
   margin: 15px 0;
 
