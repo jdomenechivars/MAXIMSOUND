@@ -22,10 +22,12 @@ function scrollFunction() {
 
   if (document.body.scrollTop > 55 || document.documentElement.scrollTop > 55) {
     bar.style.width = "100%";
+    bar.style.paddingLeft = "15%";
     bar.style.position = "fixed";
     bar.style.top = "0";
   } else {
     bar.style.width = "70%";
+    bar.style.paddingLeft = ""
     bar.style.position = "absolute";
     bar.style.top = "";
   }

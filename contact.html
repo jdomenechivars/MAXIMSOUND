@@ -3,6 +3,7 @@
 <html lang="es">
 
 <head>
+
   <meta charset="UTF-8">
 
   <meta name="description" content="">
@@ -76,9 +77,9 @@
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
-				<span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"></span>
 
-			</button>
+		</button>
 
       <a class="navbar-brand" href="index.html">
 
@@ -160,166 +161,151 @@
 
   <div id="wraper4" class="container-fluid">
 
-    <div class="row">
+    <div class="contact row justify-content-sm-center">
+      <!-- MAIN CONTACT CONTENT -->
 
-      <!-- MAIN CONTENT -->
+      <!-- Show form contact -->
+      <div class="col-sm-5">
 
-      <div id="t3-content" class="t3-content col-xs-12">
+        <h3>FORMULARIO DE CONTACTO</h3>
 
-        <div id="system-message-container"></div>
+        <div class="contact-form">
 
-        <div class="contact">
-          <!-- Page heading -->
-          <!-- End page heading -->
+          <form id="contact-form" class="form-validate form-horizontal">
 
-          <!-- Show Contact name -->
-          <!-- End Show Contact name -->
+            <fieldset>
 
-          <!-- JA Override Contact From for case "plain" -->
-          <div class="row plain-style">
+              <legend>Envíanos un Email. Todos los campos con asterisco (*) son obligatorios.</legend>
 
-            <!-- Show form contact -->
-            <div class="col-md-7 col-sm-6 contact-left">
+              <div class="form-row">
 
-              <h3>FORMULARIO DE CONTACTO</h3>
+                <div class="col-md-6 contact-name">
 
-              <div class="contact-form">
-
-                <form id="contact-form" class="form-validate form-horizontal">
-
-                  <fieldset>
-
-                    <legend>Envíanos un Email. Todos los campos con asterisco (*) son obligatorios.</legend>
-
-                    <div class="form-group">
-
-                      <div class="col-md-6 contact-name">
-
-                        <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasPopover required control-label invalid" title="" data-content="Your name." data-original-title="Name">Nombre<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasPopover required control-label invalid" title="" data-content="Your name." data-original-title="Name">Nombre<span class="star">&nbsp;*</span>
                         </label>
 
-                        <input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required form-control invalid" size="30" required="required" aria-required="true" aria-invalid="true">
+                  <input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required form-control invalid" size="30" required="required" aria-required="true" aria-invalid="true">
 
-                      </div>
+                </div>
 
-                      <div class="col-md-6 contact-email">
+                <div class="col-md-6 contact-email">
 
-                        <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasPopover required control-label" title="" data-content="Email Address for contact." data-original-title="Email">Email<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasPopover required control-label" title="" data-content="Email Address for contact." data-original-title="Email">Email<span class="star">&nbsp;*</span>
                         </label>
 
-                        <input type="email" name="jform[contact_email]" class="validate-email required form-control" id="jform_contact_email" value="" size="30" autocomplete="email" required="required" aria-required="true">
+                  <input type="email" name="jform[contact_email]" class="validate-email required form-control" id="jform_contact_email" value="" size="30" autocomplete="email" required="required" aria-required="true">
 
-                      </div>
+                </div>
 
-                    </div>
+              </div>
 
-                    <div class="form-group">
+              <div class="form-row">
 
-                      <div class="col-sm-12">
+                <div class="col-sm-12">
 
-                        <label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasPopover required control-label" title="" data-content="Enter the subject of your message here." data-original-title="Subject">Asunto<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasPopover required control-label" title="" data-content="Enter the subject of your message here." data-original-title="Subject">Asunto<span class="star">&nbsp;*</span>
                         </label>
 
-                        <input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="" class="required form-control" size="60" required="required" aria-required="true">
+                  <input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="" class="required form-control" size="60" required="required" aria-required="true">
 
-                      </div>
+                </div>
 
-                    </div>
+              </div>
 
-                    <div class="form-group contact-mes">
+              <div class="form-row contact-mes">
 
-                      <div class="col-sm-12">
+                <div class="col-sm-12">
 
-                        <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasPopover required control-label" title="" data-content="Enter your message here." data-original-title="Message">Mensaje<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasPopover required control-label" title="" data-content="Enter your message here." data-original-title="Message">Mensaje<span class="star">&nbsp;*</span>
                         </label>
 
-                        <textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required form-control" required="required" aria-required="true"></textarea>
+                  <textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required form-control" required="required" aria-required="true"></textarea>
 
-                      </div>
+                </div>
 
-                    </div>
+              </div>
 
-                    <div class="form-group">
+              <div class="form-row">
 
-                      <div class="col-sm-12"></div>
+                <div class="col-sm-12"></div>
 
-                    </div>
+              </div>
 
-                    <div class="form-group">
+              <div class="form-row">
 
-                      <div class="col-sm-7">
+                <div class="col-sm-7">
 
-                        <div class="checkbox">
+                  <div class="checkbox">
 
-                          <input type="checkbox" name="jform[contact_email_copy]" id="jform_contact_email_copy" value="1">
-                          <label id="jform_contact_email_copy-lbl" for="jform_contact_email_copy" class="hasPopover" title="" data-content="Sends a copy of the message to the address you have supplied." data-original-title="Send copy to yourself">Recibir una copia del Email</label>
+                    <input type="checkbox" name="jform[contact_email_copy]" id="jform_contact_email_copy" value="1">
+                    <label id="jform_contact_email_copy-lbl" for="jform_contact_email_copy" class="hasPopover" title="" data-content="Sends a copy of the message to the address you have supplied." data-original-title="Send copy to yourself">Recibir una copia del Email</label>
 
-                        </div>
+                  </div>
 
-                      </div>
+                </div>
 
-                      <div class="col-sm-5 control-btn">
+                <div class="col-sm-5 control-btn">
 
-                        <button class="btn btn-primary validate" type="submit">Enviar Email</button>
+                  <button class="btn btn-primary validate" type="submit">Enviar Email</button>
 
-                      </div>
+                </div>
 
 
-                    </div>
+              </div>
 
-                  </fieldset>
+            </fieldset>
 
-                </form>
+          </form>
+
+        </div>
+
+      </div>
+      <!-- End Show form contact -->
+
+      <!-- Show Other information -->
+      <div class="col-sm-4">
+
+        <div class="inner">
+
+          <div class="box-contact box-bg">
+
+            <!-- Show Contact name -->
+            <h3>INFO DE CONTACTO</h3>
+
+            <!-- End Show Contact name -->
+
+            <!-- Contact other information -->
+            <div class="contact-miscinfo">
+
+              <div class="div-horizontal">
+
+                <p>Horario de nuestra oficina: De lunes a viernes, de XXh a XXh.</p>
+
+                <p>En nuestras oficinas sólo se atenderá con cita previa.</p>
 
               </div>
 
             </div>
-            <!-- End Show form contact -->
 
-            <!-- Show Other information -->
-            <div class="col-md-5 col-sm-6 contact-information">
+            <!-- End other information -->
 
-              <div class="inner">
+          </div>
 
-                <div class="box-contact box-bg">
+          <div class="box-contact">
 
-                  <!-- Show Contact name -->
-                  <h3>INFO DE CONTACTO</h3>
+            <!-- Contact -->
 
-                  <!-- End Show Contact name -->
+            <h3>CONTACTO</h3>
 
-                  <!-- Contact other information -->
-                  <div class="contact-miscinfo">
+            <div class="contactInfo" itemscope itemtype="http://schema.org/Organization">
 
-                    <div class="div-horizontal">
+              <span itemprop="name" hidden="hidden">Maxim Sound</span>
 
-                      <p>Horario de nuestra oficina: De lunes a viernes, de XXh a XXh.</p>
+              <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 
-                      <p>En nuestras oficinas sólo se atenderá con cita previa.</p>
+                <div class="eachContact">
 
-                    </div>
-
-                  </div>
-
-                  <!-- End other information -->
-
-                </div>
-
-                <div class="box-contact">
-
-                  <!-- Contact -->
-
-                  <h3>CONTACTO</h3>
-
-                  <div class="contactInfo" itemscope itemtype="http://schema.org/Organization">
-
-                    <span itemprop="name" hidden="hidden">Maxim Sound</span>
-
-                    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-
-                      <div class="eachContact">
-
-                        <a class="contactdirect" href="https://goo.gl/maps/chNo4aWHqVm" target="_blank">
+                  <a class="contactdirect" href="https://goo.gl/maps/chNo4aWHqVm" target="_blank">
 
                       <img class="contactIcons" src="styles/icons/location.png" alt="Dirección" title="Dirección">
 
@@ -331,13 +317,13 @@
 
                       </a>
 
-                      </div>
+                </div>
 
-                    </div>
+              </div>
 
-                    <div class="eachContact">
+              <div class="eachContact">
 
-                      <a class="contactdirect" href="tel://+34965766270">
+                <a class="contactdirect" href="tel://+34965766270">
 
                     <img class="contactIcons" src="styles/icons/phone-call.png" alt="Teléfono" title="Teléfono">
 
@@ -345,94 +331,84 @@
 
                     </a>
 
-                    </div>
+              </div>
 
-                    <div class="eachContact">
+              <div class="eachContact">
 
-                      <a class="contactdirect" href="tel://+34639470216">
+                <a class="contactdirect" href="tel://+34639470216">
 
                     <img class="contactIcons" src="styles/icons/smartphone.png" alt="Móvil / Whatsapp" title="Móvil/Whatsapp"> <span itemprop="telephone" > +34 639 470 216</span></a>&nbsp;(Móvil / Whatsapp)
 
-                    </div>
+              </div>
 
-                    <div class="eachContact">
+              <div class="eachContact">
 
-                      <a class="contactdirect" href="mailto:info&#64;maximsound.es">
+                <a class="contactdirect" href="mailto:info&#64;maximsound.es">
 
                     <img class="contactIcons" src="styles/icons/mail.png" title="Email" alt="Email">
 
                     <span itemprop="email">info&#64;maximsound.es</span></a>
 
-                    </div>
-                    <!-- End contact-->
-
-                  </div>
-
-                </div>
-
-                <div class="box-contact">
-
-                  <!-- Contact links -->
-                  <h3>LINKS</h3>
-
-                  <div class="contact-links">
-
-                    <ul class="nav nav-pills nav-fill">
-
-                      <li class="nav-item contactMedia">
-
-                        <a class="nav-link mediaLink" href="https://www.facebook.com/Espectaculos-Maxim-Sound-SL-246266178785692/" target="_blank">Facebook</a>
-
-                      </li>
-
-                      <li class="nav-item contactMedia">
-
-                        <a class="nav-link mediaLink" href="" target="_blank">Instagram</a>
-
-                      </li>
-
-                      <li class="nav-item contactMedia">
-
-                        <a class="nav-link mediaLink" href="https://twitter.com/_maximsound_?lang=es" target="_blank">Twitter</a>
-
-                      </li>
-
-                      <li class="nav-item contactMedia">
-
-                        <a class="nav-link mediaLink" href="" target="_blank">LinkedIn</a>
-
-                      </li>
-
-                      <li class="nav-item contactMedia">
-
-                        <a class="nav-link mediaLink" href="" target="_blank">Youtube</a>
-
-                      </li>
-
-                    </ul>
-
-                  </div>
-
-                  <!-- End contact Links -->
-
-                </div>
-
               </div>
+              <!-- End contact-->
 
             </div>
 
-            <!-- End Show -->
-
           </div>
 
-          <!-- End Override -->
+          <div class="box-contact">
+
+            <!-- Contact links -->
+            <h3>LINKS</h3>
+
+            <div class="contact-links">
+
+              <ul class="nav nav-pills nav-fill">
+
+                <li class="nav-item contactMedia">
+
+                  <a class="nav-link mediaLink" href="https://www.facebook.com/Espectaculos-Maxim-Sound-SL-246266178785692/" target="_blank">Facebook</a>
+
+                </li>
+
+                <li class="nav-item contactMedia">
+
+                  <a class="nav-link mediaLink" href="" target="_blank">Instagram</a>
+
+                </li>
+
+                <li class="nav-item contactMedia">
+
+                  <a class="nav-link mediaLink" href="https://twitter.com/_maximsound_?lang=es" target="_blank">Twitter</a>
+
+                </li>
+
+                <li class="nav-item contactMedia">
+
+                  <a class="nav-link mediaLink" href="" target="_blank">LinkedIn</a>
+
+                </li>
+
+                <li class="nav-item contactMedia">
+
+                  <a class="nav-link mediaLink" href="" target="_blank">Youtube</a>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <!-- End contact Links -->
+
+          </div>
 
         </div>
 
       </div>
+      <!-- End Show Other information -->
 
-      <!-- //MAIN CONTENT -->
-
+      <!-- END MAIN CONTACT CONTENT -->
     </div>
 
   </div>
@@ -444,7 +420,6 @@
     <a id="getintouch" class="btn  btn-inverse" title="Contacte con nosotros" href="contact.html" alt="boton de contacto">CONTACTAR</a>
 
   </div>
-
 
   <footer class="container-fluid">
 
@@ -507,7 +482,6 @@
     </div>
 
   </footer>
-
 
   <!-- js Scripts -->
 

@@ -2,14 +2,27 @@
 @import "normalize";
 
 // Variables
+
+$web-font: 'Roboto', sans-serif;
+
+$header-color:#f8f9fa;
+$footer-color: #272727;
+$white-grey: #eeeeee;
+$light-grey: darkgrey;
+$dark-grey: #474747;
+$accent-color: #ffcc00;
+
+
 //Mixins
 //Style
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: $web-font;
   display: flex;
   flex-flow: column nowrap;
+  color: $dark-grey;
 }
 
+// HEADER START //
 header {
   position: absolute;
   padding-top: 60px;
@@ -26,11 +39,12 @@ nav {
 }
 
 .dropdown-toggle::after {
-  color: #ffcc00;
+  color: $accent-color;
 }
 
 #bar2 {
   width: 100%;
+  padding-left: 15%;
   position: fixed;
   top: 0;
 }
@@ -40,6 +54,8 @@ nav {
   width: 200px;
 }
 
+// HEADER ENDING //
+// INDEX FIRST WRAPPER-WELCOME START //
 #wraper1 {
   width: 100%;
   height: content;
@@ -80,20 +96,23 @@ nav {
 
 .item-desc-div {
   font-size: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: $web-font;
   font-weight: 300;
   margin-bottom: 10px;
   display: block;
 }
 
+// INDEX FIRST WRAPER-WELCOME ENDING //
+// INDEX SECOND WRAPER-VIDEOS START //
 #wraper2 {
   height: 500px;
-  background-color: white; //	border: 5px solid red;
+  background-color: white;
   overflow: hidden;
 }
 
+// INDEX SECOND WRAPER-VIDEOS ENDING //
+// INDEX THIRD WRAPER-WORK WITH START //
 #wraper3 {
-  //  border: 1px solid black;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -118,15 +137,15 @@ nav {
   line-height: 1.1;
   font-weight: 100;
   font-style: thin;
-  font-family: 'Roboto', sans-serif;
+  font-family: $web-font;
 }
 
 #getintouch {
   width: 130px;
   height: 50px;
-  color: #ffffff;
+  color: white;
   background: transparent;
-  border: 2px solid #ffffff;
+  border: 2px solid white;
   border-radius: 0;
   font-weight: 700;
   font-size: 13px;
@@ -136,9 +155,10 @@ nav {
   letter-spacing: 0.1em;
 }
 
+// INDEX THIRD WRAPER-WORK WITH ENDING //
 // FOOTER START //
 footer {
-  background-color: #272727;
+  background-color: $footer-color;
   color: white;
   min-height: 87.5vh; //  border: 5px solid blue;
 }
@@ -165,7 +185,7 @@ h5 {
   font-size: 14px;
   padding: 25px;
   text-decoration: none;
-  color: darkgrey;
+  color: $light-grey;
 }
 
 .socialmedia:hover,
@@ -177,7 +197,7 @@ h5 {
 
 hr {
   margin: 0 250px;
-  border-color: #474747;
+  border-color: $dark-grey;
 }
 
 .footerbottom {
@@ -187,11 +207,11 @@ hr {
 }
 
 #copyright {
-  color: #474747;
+  color: $dark-grey;
   margin-right: 50px;
 }
 
-#ogreyContainer{
+#ogreyContainer {
   margin-left: 50px;
   display: flex;
 }
@@ -202,14 +222,14 @@ hr {
 }
 
 // FOOTER ENDING //
-
-
+// FOURTH WRAPER-CONTENT START //
 #wraper4 {
   margin: 150px auto 0 auto;
   padding: 50px 150px;
   min-height: 87.5vh;
 }
 
+// FOURTH WRAPER-LEGAL START //
 ol {
   list-style: decimal;
   margin: 40px;
@@ -223,6 +243,8 @@ ol {
   margin-top: 15px;
 }
 
+// FOURTH WRAPER-LEGAL ENDING //
+// FOURTH WRAPER-CONTACT START //
 .contact h3 {
   position: relative;
   margin: 20px 0;
@@ -231,15 +253,36 @@ ol {
 }
 
 .contact h3::after {
-  //  margin: 15px 0;
   content: "";
   display: block;
   width: 40px;
   height: 2px;
-  background: #ffcc00;
+  background: $accent-color;
   position: absolute;
   bottom: 0;
 
+}
+
+.form-control{
+  border: 2px solid $white-grey;
+  border-radius: 0;
+}
+
+.box-contact {
+  width: 100%;
+//  margin: 0 50px 50px 50px;
+}
+
+.box-bg {
+  width: 100%;
+  padding: 10px 25px 50px 25px;
+  background: $dark-grey;
+  color: white;
+}
+
+.div-horizontal p {
+  font-size: 14px;
+  margin: 15px 0;
 }
 
 .contactInfo {
@@ -254,7 +297,6 @@ ol {
   align-items: center;
   align-content: center;
   margin: 5px 0;
-  //  font-weight: 100;
 }
 
 .contactIcons {
@@ -266,12 +308,12 @@ ol {
 .contactMedia {
   text-transform: uppercase;
   font-size: 12px;
-  background-color: #eeeeee;
+  background-color: $white-grey;
   margin: 5px;
 }
 
 .contactMedia:hover {
-  background-color: #ffcc00;
+  background-color: $accent-color;
 }
 
 .contactdirect {
@@ -281,47 +323,30 @@ ol {
   align-items: center;
   color: inherit;
   text-decoration: none;
-
 }
 
 .contactdirect,
 .contactdirect:hover {
   vertical-align: inherit;
-  font-family: 'Roboto', sans-serif;
+  font-family: $web-font;
 }
 
 .contactdirect:hover {
   color: inherit;
   text-decoration: underline;
-  text-decoration-color: #ffcc00;
+  text-decoration-color: $accent-color;
 
 }
 
 .mediaLink {
-  font-family: 'Roboto', sans-serif;
-  color: grey;
+  font-family: $web-font;
+  color: $dark-grey;
 }
 
 .mediaLink:hover {
-  font-family: 'Roboto', sans-serif;
+  font-family: $web-font;
   color: white;
   font-weight: bold;
 }
 
-.box-contact {
-  width: 100%;
-  margin: 50px;
-}
-
-.box-bg {
-  width: 100%;
-  padding: 25px;
-  background: #474747;
-  color: white;
-}
-
-.div-horizontal p {
-  font-size: 14px;
-  margin: 15px 0;
-
-}
+// FOURTH WRAPER-CONTENT ENDING //

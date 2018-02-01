@@ -1,3 +1,4 @@
 + fix footer responsive
 - fix overflow home page
+- Style legal page content
 
