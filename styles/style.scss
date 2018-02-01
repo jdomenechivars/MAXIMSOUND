@@ -2,8 +2,8 @@
 @import "normalize";
 
 // Variables
-
-$web-font: 'Roboto', sans-serif;
+$web-font: 'Roboto',
+sans-serif;
 
 $header-color:#f8f9fa;
 $footer-color: #272727;
@@ -166,13 +166,13 @@ footer {
 #footermenu {
   padding-top: 100px;
   padding-bottom: 100px;
-  margin: 0 250px;
+  margin: 0 10%;
 }
 
 .footercolumn {
   display: flex;
   flex-flow: column nowrap;
-  margin: 35px;
+  margin: 4%;
 }
 
 h5 {
@@ -196,14 +196,14 @@ h5 {
 }
 
 hr {
-  margin: 0 250px;
   border-color: $dark-grey;
+  margin: 0 10%;
 }
 
 .footerbottom {
-  margin: 0 250px;
   padding: 45px 0;
   align-items: center;
+  margin: 0 10%;
 }
 
 #copyright {
@@ -225,8 +225,8 @@ hr {
 // FOURTH WRAPER-CONTENT START //
 #wraper4 {
   margin: 150px auto 0 auto;
-  padding: 50px 150px;
-  min-height: 87.5vh;
+  padding: 50px 10%;
+  min-height: 75vh;
 }
 
 // FOURTH WRAPER-LEGAL START //
@@ -245,6 +245,19 @@ ol {
 
 // FOURTH WRAPER-LEGAL ENDING //
 // FOURTH WRAPER-CONTACT START //
+.contact {
+  min-height: inherit;
+  height: 100%;
+  border: 1px solid green;
+}
+
+.columna {
+  min-width: 275px;
+  max-width: 700px;
+  padding: 0 2%;
+  border: 1px solid red;
+}
+
 .contact h3 {
   position: relative;
   margin: 20px 0;
@@ -263,14 +276,19 @@ ol {
 
 }
 
-.form-control{
+.form-control {
   border: 2px solid $white-grey;
   border-radius: 0;
 }
 
+colInfo {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
 .box-contact {
   width: 100%;
-//  margin: 0 50px 50px 50px;
+  margin-bottom: 50px;
 }
 
 .box-bg {
@@ -280,7 +298,7 @@ ol {
   color: white;
 }
 
-.div-horizontal p {
+.contact-miscinfo p {
   font-size: 14px;
   margin: 15px 0;
 }
@@ -296,24 +314,15 @@ ol {
   justify-content: flex-start;
   align-items: center;
   align-content: center;
-  margin: 5px 0;
+  margin: 5px 50px 20px 0;
+  width: 100%;
+  font-size: 14px;
 }
 
 .contactIcons {
   width: 20px;
   height: auto;
   margin-right: 10px;
-}
-
-.contactMedia {
-  text-transform: uppercase;
-  font-size: 12px;
-  background-color: $white-grey;
-  margin: 5px;
-}
-
-.contactMedia:hover {
-  background-color: $accent-color;
 }
 
 .contactdirect {
@@ -338,9 +347,23 @@ ol {
 
 }
 
+.contactMedia {
+  text-transform: uppercase;
+  background-color: $white-grey;
+  margin: 0 6.25px 6.25px 0;
+  display: inline-block;
+}
+
+.contactMedia:hover {
+  background-color: $accent-color;
+}
+
 .mediaLink {
   font-family: $web-font;
   color: $dark-grey;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 12.5px 12.5px;
 }
 
 .mediaLink:hover {
