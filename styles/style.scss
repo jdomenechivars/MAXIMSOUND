@@ -248,14 +248,14 @@ ol {
 .contact {
   min-height: inherit;
   height: 100%;
-  border: 1px solid green;
+//  border: 1px solid green;
 }
 
 .columna {
   min-width: 275px;
   max-width: 700px;
   padding: 0 2%;
-  border: 1px solid red;
+//  border: 1px solid red;
 }
 
 .contact h3 {
@@ -276,9 +276,64 @@ ol {
 
 }
 
+.form-row{
+  margin-bottom: 25px;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.form-row>.col, .form-row>[class*=col-]{
+  padding: 0 30px;
+}
+
+legend{
+  color: $light-grey;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+label{
+  font-weight: 400;
+  text-align: right;
+//  margin-bottom: 2.5px;
+  line-height: 1.78571429;
+  color: $dark-grey;
+  font-size: 14px;
+}
+
+.star{
+  color: $accent-color;
+}
+
 .form-control {
   border: 2px solid $white-grey;
   border-radius: 0;
+}
+
+.col-sm-5.control-btn{
+  text-align: right;
+}
+
+#sendMail{
+  width: 130px;
+  height: 50px;
+  color: $accent-color;
+  background: transparent;
+  border: 2px solid $accent-color;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1.8;
+  padding: 13px 12px;
+  vertical-align: middle;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+#sendMail:hover{
+  background: $accent-color;
+  color: white;
+  cursor: pointer;
 }
 
 colInfo {

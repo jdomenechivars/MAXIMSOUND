@@ -181,19 +181,19 @@
 
                 <div class="col-md-6 contact-name">
 
-                  <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasPopover required control-label invalid" title="" data-content="Your name." data-original-title="Name">Nombre<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_name-lbl" for="jform_contact_name" class="hasPopover required control-label invalid" data-content="Your name." data-original-title="Name">Nombre<span class="star">&nbsp;*</span>
                         </label>
 
-                  <input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required form-control invalid" size="30" required="required" aria-required="true" aria-invalid="true">
+                  <input type="text" name="jform[contact_name]" id="jform_contact_name" class="required form-control invalid" required="required">
 
                 </div>
 
                 <div class="col-md-6 contact-email">
 
-                  <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasPopover required control-label" title="" data-content="Email Address for contact." data-original-title="Email">Email<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_email-lbl" for="jform_contact_email" class="hasPopover required control-label" data-original-title="Email">Email<span class="star">&nbsp;*</span>
                         </label>
 
-                  <input type="email" name="jform[contact_email]" class="validate-email required form-control" id="jform_contact_email" value="" size="30" autocomplete="email" required="required" aria-required="true">
+                  <input type="email" name="jform[contact_email]" class="validate-email required form-control" id="jform_contact_email" autocomplete="email" required="required">
 
                 </div>
 
@@ -203,10 +203,10 @@
 
                 <div class="col-sm-12">
 
-                  <label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasPopover required control-label" title="" data-content="Enter the subject of your message here." data-original-title="Subject">Asunto<span class="star">&nbsp;*</span>
-                        </label>
+                  <label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasPopover required control-label">Asunto<span class="star">&nbsp;*</span>
+                  </label>
 
-                  <input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="" class="required form-control" size="60" required="required" aria-required="true">
+                  <input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" class="required form-control" size="60" required="required">
 
                 </div>
 
@@ -216,10 +216,10 @@
 
                 <div class="col-sm-12">
 
-                  <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasPopover required control-label" title="" data-content="Enter your message here." data-original-title="Message">Mensaje<span class="star">&nbsp;*</span>
+                  <label id="jform_contact_message-lbl" for="jform_contact_message" class="hasPopover required control-label">Mensaje<span class="star">&nbsp;*</span>
                         </label>
 
-                  <textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required form-control" required="required" aria-required="true"></textarea>
+                  <textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required form-control" required="required" ></textarea>
 
                 </div>
 
@@ -246,7 +246,7 @@
 
                 <div class="col-sm-5 control-btn">
 
-                  <button class="btn btn-primary validate" type="submit">Enviar Email</button>
+                  <button id="sendMail" class="btn btn-primary validate" type="submit">Enviar Email</button>
 
                 </div>
 
