@@ -222,8 +222,8 @@ hr {
 }
 
 // FOOTER ENDING //
-//FITH WRAPER-IMAGE START //
-#wraper5 {
+// WRAPER-IMAGE START //
+#wraper5,#wraper6,#wraper7,#wraper8,#wraper9,#wraper10,#wraper11,#wraper12 {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -232,11 +232,31 @@ hr {
   height: 70vh;
   padding: 100px 0;
   overflow: hidden;
-  background-image: url(images/empresa.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
 }
+
+#wraper5{
+  background-image: url(images/empresa.jpg);
+}#wraper6{
+  background-image: url(images/empresa.jpg);
+}#wraper7{
+  background-image: url(images/empresa.jpg);
+}#wraper8{
+  background-image: url(images/empresa.jpg);
+}#wraper9{
+  background-image: url(images/empresa.jpg);
+}#wraper10{
+  background-image: url(images/empresa.jpg);
+}#wraper11{
+  background-image: url(images/empresa.jpg);
+}#wraper12{
+  background-image: url(images/empresa.jpg);
+}
+
+
+
 
 
 #empresaTitle {
@@ -250,7 +270,7 @@ hr {
   font-family: $web-font;
 }
 
-//FITH WRAPER-IMAGE ENDING //
+// WRAPER-IMAGE ENDING //
 // FOURTH WRAPER-CONTENT START //
 #wraper4 {
   margin: 150px auto 0 auto;
@@ -267,23 +287,21 @@ hr {
   text-align: justify;
 }
 
-.identityTitle{
+.identityTitle {
   align-self: center;
   font-size: 28px;
   font-weight: bold;
 }
 
-.firstp::first-letter{
+.firstp::first-letter {
   font-weight: bolder;
   color: $dark-grey;
   font-size: 50px;
 }
 
-#empresaServicios{
-  list-style: square ;
+#empresaServicios {
+  list-style: square;
 }
-
-
 
 
 //FOURTH WRAPER-EMPRESA END//
