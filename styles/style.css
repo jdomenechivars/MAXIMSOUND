@@ -114,7 +114,7 @@ nav {
   max-width: 500px;
   height: auto;
   padding: 25px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
   color: black;
   text-align: left; }
 
@@ -250,43 +250,93 @@ hr {
   height: auto; }
 
 /* line 226, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#wraper5 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
+  padding: 100px 0;
+  overflow: hidden;
+  background-image: url(images/empresa.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; }
+
+/* line 242, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#empresaTitle {
+  color: white;
+  text-align: center;
+  font-size: 10vw;
+  margin-top: 120px;
+  line-height: 1.1;
+  font-weight: 100;
+  font-style: thin;
+  font-family: "Roboto", sans-serif; }
+
+/* line 255, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #wraper4 {
   margin: 150px auto 0 auto;
   padding: 50px 10%;
   min-height: 75vh; }
 
-/* line 233, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 262, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#empresaContent {
+  display: flex;
+  flex-flow: column nowrap;
+  color: black;
+  padding: 0 15% 10% 15%;
+  text-align: justify; }
+
+/* line 270, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.identityTitle {
+  align-self: center;
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 276, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.firstp::first-letter {
+  font-weight: bolder;
+  color: #474747;
+  font-size: 50px; }
+
+/* line 282, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+#empresaServicios {
+  list-style: square; }
+
+/* line 291, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 ol {
   list-style: decimal;
   margin: 40px; }
 
-/* line 238, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 296, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .legalList {
   padding: 15px 0; }
 
-/* line 242, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 300, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .legaltext {
   margin-top: 15px; }
 
-/* line 248, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 306, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contact {
   min-height: inherit;
   height: 100%; }
 
-/* line 254, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 311, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .columna {
   min-width: 275px;
   max-width: 700px;
   padding: 0 2%; }
 
-/* line 261, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 317, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contact h3 {
   position: relative;
   margin: 20px 0;
   padding-bottom: 10px;
   font-weight: bold; }
 
-/* line 268, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 324, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contact h3::after {
   content: "";
   display: block;
@@ -296,23 +346,24 @@ ol {
   position: absolute;
   bottom: 0; }
 
-/* line 279, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 335, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .form-row {
   margin-bottom: 25px;
   margin-left: -30px;
   margin-right: -30px; }
 
-/* line 285, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
-.form-row > .col, .form-row > [class*=col-] {
+/* line 341, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+.form-row > .col,
+.form-row > [class*=col-] {
   padding: 0 30px; }
 
-/* line 289, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 346, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 legend {
   color: darkgrey;
   font-size: 13px;
   margin-bottom: 25px; }
 
-/* line 295, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 352, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 label {
   font-weight: 400;
   text-align: right;
@@ -320,20 +371,20 @@ label {
   color: #474747;
   font-size: 14px; }
 
-/* line 304, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 360, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .star {
   color: #ffcc00; }
 
-/* line 308, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 364, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .form-control {
   border: 2px solid #eeeeee;
   border-radius: 0; }
 
-/* line 313, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 369, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .col-sm-5.control-btn {
   text-align: right; }
 
-/* line 317, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 373, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #sendMail {
   width: 130px;
   height: 50px;
@@ -347,42 +398,43 @@ label {
   padding: 13px 12px;
   vertical-align: middle;
   letter-spacing: 0.1em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
 
-/* line 333, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 390, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 #sendMail:hover {
   background: #ffcc00;
   color: white;
   cursor: pointer; }
 
-/* line 339, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 396, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 colInfo {
   display: flex;
   flex-flow: column nowrap; }
 
-/* line 344, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 401, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .box-contact {
   width: 100%;
   margin-bottom: 50px; }
 
-/* line 349, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 406, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .box-bg {
   width: 100%;
   padding: 10px 25px 50px 25px;
   background: #474747;
   color: white; }
 
-/* line 356, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 413, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contact-miscinfo p {
   font-size: 14px;
   margin: 15px 0; }
 
-/* line 361, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 418, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactInfo {
   display: flex;
   flex-flow: column nowrap; }
 
-/* line 366, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 423, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .eachContact {
   display: flex;
   flex-flow: row nowrap;
@@ -393,13 +445,13 @@ colInfo {
   width: 100%;
   font-size: 14px; }
 
-/* line 377, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 434, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactIcons {
   width: 20px;
   height: auto;
   margin-right: 10px; }
 
-/* line 383, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 440, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactdirect {
   display: flex;
   justify-content: center;
@@ -408,30 +460,30 @@ colInfo {
   color: inherit;
   text-decoration: none; }
 
-/* line 392, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 449, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactdirect,
 .contactdirect:hover {
   vertical-align: inherit;
   font-family: "Roboto", sans-serif; }
 
-/* line 398, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 455, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactdirect:hover {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: #ffcc00; }
 
-/* line 405, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 462, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactMedia {
   text-transform: uppercase;
   background-color: #eeeeee;
   margin: 0 6.25px 6.25px 0;
   display: inline-block; }
 
-/* line 412, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 469, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .contactMedia:hover {
   background-color: #ffcc00; }
 
-/* line 416, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 473, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .mediaLink {
   font-family: "Roboto", sans-serif;
   color: #474747;
@@ -439,7 +491,7 @@ colInfo {
   font-weight: 400;
   padding: 12.5px 12.5px; }
 
-/* line 424, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
+/* line 481, Escritorio/PROJECTES/MAXIMSOUND/styles/style.scss */
 .mediaLink:hover {
   font-family: "Roboto", sans-serif;
   color: white;
