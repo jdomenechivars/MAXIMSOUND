@@ -37,9 +37,11 @@ nav {
   width: 70%;
   height: 120px;
 }
-#navbarNavDropdown, div.dropdown-menu.show{
+
+#navbarNavDropdown,
+div.dropdown-menu.show {
   background-color: #f8f9fa!important;
-  padding:0 5% 5px 5%;
+  padding: 0 5% 5px 5%;
   border: none;
 }
 
@@ -113,6 +115,41 @@ nav {
   height: 500px;
   background-color: white;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+#videoWraper {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: -30px;
+  z-index: 350;
+  width: 70%;
+  height: auto;
+  align-items: center;
+}
+
+#videosTitle {
+  color: black;
+  width: 15%;
+  transform: rotate(-90deg);
+  text-align: center;
+}
+
+iframe {
+  width: 50%;
+}
+
+#videoDescription {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  color: white;
+  background: $dark-grey;
 }
 
 // INDEX SECOND WRAPER-VIDEOS ENDING //
@@ -228,7 +265,14 @@ hr {
 
 // FOOTER ENDING //
 // WRAPER-IMAGE START //
-#wraper5,#wraper6,#wraper7,#wraper8,#wraper9,#wraper10,#wraper11,#wraper12 {
+#wraper5,
+#wraper6,
+#wraper7,
+#wraper8,
+#wraper9,
+#wraper10,
+#wraper11,
+#wraper12 {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -242,27 +286,37 @@ hr {
   background-size: cover;
 }
 
-#wraper5{
+#wraper5 {
   background-image: url(images/empresa.jpg);
-}#wraper6{
-  background-image: url(images/sonido.jpg);
-}#wraper7{
-  background-image: url(images/escenario.jpg);
-}#wraper8{
-  background-image: url(images/estructuras.jpg);
-}#wraper9{
-  background-image: url(images/iluminacion.JPG);
-}#wraper10{
-  background-image: url(images/video.JPG);
-}#wraper11{
-  background-image: url(images/pantallas.jpg);
-}#wraper12{
-  background-image: url(images/mapping.jpg);
 }
 
+#wraper6 {
+  background-image: url(images/sonido.jpg);
+}
 
+#wraper7 {
+  background-image: url(images/escenario.jpg);
+}
 
+#wraper8 {
+  background-image: url(images/estructuras.jpg);
+}
 
+#wraper9 {
+  background-image: url(images/iluminacion.JPG);
+}
+
+#wraper10 {
+  background-image: url(images/video.JPG);
+}
+
+#wraper11 {
+  background-image: url(images/pantallas.jpg);
+}
+
+#wraper12 {
+  background-image: url(images/mapping.jpg);
+}
 
 #empresaTitle {
   color: white;
@@ -296,13 +350,17 @@ hr {
   align-self: center;
   font-size: 28px;
   font-weight: bold;
+
 }
 
-.firstp::first-letter {
+
+
+/*.firstp::first-letter {
   font-weight: bolder;
   color: $dark-grey;
-  font-size: 50px;
-}
+  font-size: 30px;
+  padding: 10px;
+}*/
 
 #empresaServicios {
   list-style: square;
@@ -508,3 +566,106 @@ colInfo {
 }
 
 // FOURTH WRAPER-CONTENT ENDING //
+///
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.cont {
+  top: 125px;
+  align-self: center;
+  position: relative;
+  width: 52%;
+  margin-bottom: 150px;
+}
+
+/* Hide the images by default */
+
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+
+.capishi-cont {
+  text-align: center;
+  background-color: #222;
+  padding: 16px 2px;
+  color: white;
+}
+
+.rowito:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+
+.barra {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+///
