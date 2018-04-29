@@ -337,6 +337,27 @@ hr {
   min-height: 75vh;
 }
 
+.explanation {
+  display: flex;
+  flex-flow: row nowrap;
+  //  border: 1px solid red;
+}
+
+.category {
+  //  border: 1px solid blue;
+  width: 70%;
+  margin: 2px;
+}
+
+.categoryText{
+  font-family: $web-font;
+}
+
+.dibuix {
+  height: 600px;
+  width: auto;
+}
+
 //FOURTH WRAPER-EMPRESA START//
 #empresaContent {
   display: flex;
