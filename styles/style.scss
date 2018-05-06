@@ -104,6 +104,7 @@ div.dropdown-menu.show {
 }
 
 .item-desc-div {
+  text-align: justify;
   font-size: 20px;
   font-family: $web-font;
   font-weight: 300;
@@ -355,18 +356,19 @@ hr {
 
 .explanation {
   display: flex;
-  flex-flow: row nowrap; //  border: 1px solid red;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .category {
-  //  border: 1px solid blue;
-  width: 70%;
+  width: 40%;
   margin: 2px;
 }
 
 .categoryText {
   font-family: $web-font;
   line-height: 1.4;
+  text-align: justify;
 }
 
 .dibuix {
