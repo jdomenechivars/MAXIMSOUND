@@ -15,6 +15,7 @@ $accent-color: #ffcc00;
 
 //Mixins
 //Style
+
 body {
   font-family: $web-font;
   display: flex;
@@ -89,6 +90,7 @@ div.dropdown-menu.show {
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
   text-align: left;
+  line-height: 1.4;
 }
 
 #welcometitle {
@@ -144,12 +146,20 @@ iframe {
 #videoDescription {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 40%;
-  height: 100%;
+  height: 315px;
+  padding: 50px;
   color: white;
   background: $dark-grey;
+  font-weight: 100;
+  line-height: 1.4;
+}
+
+.videoContext1 {
+  font-weight: 400;
+  font-size: 25px;
 }
 
 // INDEX SECOND WRAPER-VIDEOS ENDING //
@@ -182,7 +192,8 @@ iframe {
   font-family: $web-font;
 }
 
-#getintouch {
+#getintouch,
+#masvid {
   width: 130px;
   height: 50px;
   color: white;
@@ -195,6 +206,11 @@ iframe {
   padding: 13px 12px;
   vertical-align: middle;
   letter-spacing: 0.1em;
+}
+
+#masvid:hover {
+  background: white;
+  color: black;
 }
 
 // INDEX THIRD WRAPER-WORK WITH ENDING //
@@ -339,8 +355,7 @@ hr {
 
 .explanation {
   display: flex;
-  flex-flow: row nowrap;
-  //  border: 1px solid red;
+  flex-flow: row nowrap; //  border: 1px solid red;
 }
 
 .category {
@@ -349,8 +364,9 @@ hr {
   margin: 2px;
 }
 
-.categoryText{
+.categoryText {
   font-family: $web-font;
+  line-height: 1.4;
 }
 
 .dibuix {
@@ -359,22 +375,34 @@ hr {
 }
 
 //FOURTH WRAPER-EMPRESA START//
+
+.identityTitle {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
 #empresaContent {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
+  justify-content: center;
   color: black;
-  padding: 0 15% 10% 15%;
   text-align: justify;
 }
 
-.identityTitle {
-  align-self: center;
-  font-size: 28px;
-  font-weight: bold;
-
+.columnEmpresa{
+  margin: 50px;
+  width: 300px;
+  height: 300px;
 }
 
+.col1{
+  text-align: right;
+}
 
+.col2{
+  text-align: left;
+}
 
 /*.firstp::first-letter {
   font-weight: bolder;
@@ -383,8 +411,69 @@ hr {
   padding: 10px;
 }*/
 
+#VisionMision {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.VM {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  border: 1px solid $white-grey;
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+  padding: 50px;
+  text-align: justify;
+}
+
+.Oo{
+  width: 60px;
+  height: 60px;
+  margin: 25px;
+
+}
+
+.vismis{
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.ion{
+  line-height: 1.4;
+}
+
+#raya {
+  width: 99vw;
+  position: absolute;
+  left: 0;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  border-top: 1px solid $white-grey;
+  height: 5px;
+}
+
+#Servicios{
+  margin-top: 150px;
+}
+
 #empresaServicios {
-  list-style: square;
+  width: 50%;
+  height: 400px;
+  list-style: none;
+  border-right: 1px solid $white-grey;
+  line-height: 2;
+}
+
+.empserv{
+  margin-left: 20px;
+}
+.empserv:first-of-type{
+  margin-top: 20px;
 }
 
 
